@@ -15,8 +15,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+  } ,
   "dependencies": {
     "next": "^16.1.1",
     "react": "^19.2.3",
